@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"&159730436242008151$\" ARScene.unity)",
+      "Bash(sed -n '/--- !u!1 &159730436242008151/,/m_IsActive/p' ARScene.unity)",
+      "mcp__visualize__show_widget",
+      "Bash(awk '/--- !u!1 &2101450260$/{f=1} f&&/m_Name:/{print} f&&/m_IsActive:/{print; exit}' ARScene.unity)",
+      "Bash(awk '/--- !u!1 &2101450260$/{f=1} f&&/m_IsActive:/{print \"LoadingCanvas m_IsActive:\"$2; exit}' ARScene.unity)",
+      "Bash(awk '/guid: c6ff19892b6815c4b98f89937bdcc382/{f=1} f{print NR\": \"$0} f&&/minSeconds:/{exit}' HomeScene.unity)",
+      "Bash(echo \"count jpg/png metas: $\\(find \"Paintings/museum2PHOTOS-20260624T064036Z-3-001\" \\\\\\( -iname \"*.jpg.meta\" -o -iname \"*.png.meta\" \\\\\\))",
+      "Bash(awk 'NR>=2000 && /^--- !u!/{print NR\": \"$0; exit}' ARScene2.unity)",
+      "Bash(awk '/--- !u!1 &498142849$/{f=1} f{print NR\": \"$0} f&&/m_IsActive:/{exit}' ARScene.unity)",
+      "Bash(awk '/m_GameObject: {fileID: 498142849}/{found=1} found&&/!u!224|m_Father:|m_LocalRotation:|m_LocalEulerAnglesHint:/{print NR\": \"$0}' ARScene.unity)",
+      "Bash(awk '/--- !u!1 &308085068$/{f=1} f{print NR\": \"$0} f&&/m_IsActive:/{exit}' ARScene.unity)",
+      "Bash(awk '/m_GameObject: {fileID: 308085068}/{print NR\": gameobject-ref\"} /RenderMode|EditorClassIdentifier:.*Canvas/{print NR\": \"$0}' ARScene.unity)",
+      "Bash(awk '/m_GameObject: {fileID: 308085068}/{c++} c>0 && /m_LocalRotation:|m_Father:|m_RenderMode:|m_LocalEulerAnglesHint:/{print NR\": \"$0} c>0 && /m_Pivot:/{exit}' ARScene.unity)"
+    ]
+  }
+}
