@@ -74,8 +74,17 @@ public class DisplayedPanelManager : MonoBehaviour
         currentName = name;
         StopAllCoroutines();
 
-        // remove the prefab spawned for the previous painting
-        if (currentVideoInstance != null) Destroy(currentVideoInstance);
+        // remove the prefab spawned for the previous painting (unsubscribe safely)
+        if (currentVideoInstance != null)
+        {
+            var vpOld = currentVideoInstance.GetComponentInChildren<VideoPlayer>();
+            if (vpOld != null)
+            {
+                vpOld.loopPointReached -= OnVideoEnded;
+                vpOld.errorReceived -= OnVideoError;
+            }
+            Destroy(currentVideoInstance);
+        }
         currentVideo = null;
         if (videoControls != null) videoControls.SetActive(false);
 
@@ -89,7 +98,17 @@ public class DisplayedPanelManager : MonoBehaviour
             currentVideoInstance.transform.localScale = new Vector3(img.size.x, img.size.y, 1f);
 
             currentVideo = currentVideoInstance.GetComponentInChildren<VideoPlayer>();
-            if (currentVideo != null) currentVideo.Play();
+            if (currentVideo != null)
+            {
+                Debug.Log($"DisplayedPanelManager: spawned video prefab '{currentVideoInstance.name}' and found VideoPlayer.");
+                currentVideo.loopPointReached += OnVideoEnded;
+                currentVideo.errorReceived += OnVideoError;
+                currentVideo.Play();
+            }
+            else
+            {
+                Debug.LogWarning($"DisplayedPanelManager: spawned video prefab '{currentVideoInstance.name}' but no VideoPlayer found.");
+            }
             if (videoControls != null) videoControls.SetActive(true);
             RefreshVideoButton();
         }
@@ -99,6 +118,11 @@ public class DisplayedPanelManager : MonoBehaviour
             StartCoroutine(ShowAfterLoading(art));
         }
     }
+
+    // true while a video is spawned and playing
+    public bool IsVideoPlaying => currentVideo != null && currentVideo.isPlaying;
+    // true while any video is on screen (playing or paused)
+    public bool HasVideo => currentVideo != null;
 
     // hook this to the video Play/Pause button
     public void ToggleVideo()
@@ -114,6 +138,17 @@ public class DisplayedPanelManager : MonoBehaviour
         bool playing = currentVideo != null && currentVideo.isPlaying;
         if (videoPlayButton  != null) videoPlayButton.SetActive(!playing);
         if (videoPauseButton != null) videoPauseButton.SetActive(playing);
+    }
+
+    void OnVideoEnded(VideoPlayer vp)
+    {
+        Debug.Log("DisplayedPanelManager: video ended.");
+        RefreshVideoButton();
+    }
+
+    void OnVideoError(VideoPlayer vp, string message)
+    {
+        Debug.LogError($"DisplayedPanelManager: VideoPlayer error - {message}");
     }
 
     IEnumerator ShowAfterLoading(Artwork art)

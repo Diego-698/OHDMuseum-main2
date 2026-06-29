@@ -34,10 +34,12 @@ public class AutoHideControls : MonoBehaviour
 
     static bool Tapped()
     {
+        var p = Pointer.current;   // covers touch, mouse, or pen
+        if (p != null && p.press.wasPressedThisFrame) return true;
+
         var touch = Touchscreen.current;
         if (touch != null && touch.primaryTouch.press.wasPressedThisFrame) return true;
 
-        var mouse = Mouse.current;   // for testing in the editor
-        return mouse != null && mouse.leftButton.wasPressedThisFrame;
+        return false;
     }
 }
