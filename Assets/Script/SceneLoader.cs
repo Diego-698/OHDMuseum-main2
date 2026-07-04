@@ -16,7 +16,7 @@ public class SceneLoader : MonoBehaviour
     }
 
     // convenience hook for the "Enter AR" button
-    public void LoadAR() => LoadScene("ARScene");
+    public void LoadAR() => LoadScene("ARScene3");
     public void LoadAR2() => LoadScene("ARScene2");
 
     public void LoadScene(string sceneName)
