@@ -27,6 +27,7 @@ public class DisplayedPanelManager : MonoBehaviour
     public class Artwork
     {
         public string imageName;   // must match Reference Image name
+        public string[] aliases;   // extra Reference Image names (e.g. a QR code) that show this same painting
         public string title;
         [TextArea] public string description;
         public AudioClip audio;
@@ -55,6 +56,23 @@ public class DisplayedPanelManager : MonoBehaviour
         foreach (var img in e.updated) HandleImage(img);
     }
 
+    // true if the detected reference image name matches this artwork's imageName OR any of its aliases
+    static bool NameMatches(Artwork a, string name)
+    {
+        name = name.Trim();
+        if (!string.IsNullOrEmpty(a.imageName) &&
+            string.Equals(a.imageName.Trim(), name, System.StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if (a.aliases != null)
+            foreach (var alias in a.aliases)
+                if (!string.IsNullOrEmpty(alias) &&
+                    string.Equals(alias.Trim(), name, System.StringComparison.OrdinalIgnoreCase))
+                    return true;
+
+        return false;
+    }
+
     void HandleImage(ARTrackedImage img)
     {
         if (img.trackingState != TrackingState.Tracking) return;
@@ -62,9 +80,7 @@ public class DisplayedPanelManager : MonoBehaviour
         string name = img.referenceImage.name;
         if (name == currentName) return;   // already showing this one
 
-        var art = System.Array.Find(artworks,
-            a => string.Equals(a.imageName.Trim(), name.Trim(),
-                               System.StringComparison.OrdinalIgnoreCase));
+        var art = System.Array.Find(artworks, a => NameMatches(a, name));
         if (art == null)
         {
             Debug.LogWarning($"No artwork entry matches reference image '{name}'");
