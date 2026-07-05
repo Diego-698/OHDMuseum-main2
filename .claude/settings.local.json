@@ -13,7 +13,12 @@
       "Bash(awk '/m_GameObject: {fileID: 498142849}/{found=1} found&&/!u!224|m_Father:|m_LocalRotation:|m_LocalEulerAnglesHint:/{print NR\": \"$0}' ARScene.unity)",
       "Bash(awk '/--- !u!1 &308085068$/{f=1} f{print NR\": \"$0} f&&/m_IsActive:/{exit}' ARScene.unity)",
       "Bash(awk '/m_GameObject: {fileID: 308085068}/{print NR\": gameobject-ref\"} /RenderMode|EditorClassIdentifier:.*Canvas/{print NR\": \"$0}' ARScene.unity)",
-      "Bash(awk '/m_GameObject: {fileID: 308085068}/{c++} c>0 && /m_LocalRotation:|m_Father:|m_RenderMode:|m_LocalEulerAnglesHint:/{print NR\": \"$0} c>0 && /m_Pivot:/{exit}' ARScene.unity)"
+      "Bash(awk '/m_GameObject: {fileID: 308085068}/{c++} c>0 && /m_LocalRotation:|m_Father:|m_RenderMode:|m_LocalEulerAnglesHint:/{print NR\": \"$0} c>0 && /m_Pivot:/{exit}' ARScene.unity)",
+      "Bash(cp ARScene3.unity /tmp/ARScene3_beforeScrollFix.bak)",
+      "Bash(sed -i '2897s/.*/  m_AnchorMax: {x: 1, y: 1}/' ARScene3.unity)",
+      "Bash(sed -i '2899s/.*/  m_SizeDelta: {x: -20, y: 0}/' ARScene3.unity)",
+      "Bash(awk '/--- !u!224 &1941128298$/{f=1} f&&/m_Anchor|m_SizeDelta:|m_AnchoredPosition:|m_Pivot:/{print} f&&/m_Pivot:/{exit}' ARScene3.unity)",
+      "Bash(awk '/^--- !u!1 &585806573$/{f=1} f{print} f&&/m_Name:/{exit}' ARScene3.unity)"
     ]
   }
 }

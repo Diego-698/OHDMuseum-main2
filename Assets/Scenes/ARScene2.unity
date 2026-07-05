@@ -1155,6 +1155,168 @@ Transform:
   - {fileID: 677731256}
   m_Father: {fileID: 1847064023}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &795942653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 795942654}
+  - component: {fileID: 795942657}
+  - component: {fileID: 795942656}
+  - component: {fileID: 795942655}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &795942654
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795942653}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1500153730}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 332.1497}
+  m_SizeDelta: {x: 0, y: 621.78}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &795942655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795942653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &795942656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795942653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "This work titled Bistro in Paris is an exceptional one. It is world famous
+    because it got the second prize at the Biennale in Venice in 1954. Affandi was
+    at the time already in Europe. In '53, he painted this, and in '53, he was also
+    participating in the Biennale of S\xE3o Paulo, and his works there attracted
+    the curator of the Venice Biennale in '54. That's why he was invited to participate
+    in the Biennale in '84 in Venice. He sent more than one painting, but this got
+    the second prize, which was of course a big achievement. But Affandi was not
+    happy. Affandi said, I should have got the first prize. And you know who got
+    the first prize? It was the great surrealist Max Ernest. So I think second prize
+    is already a very big achievement. But Afandi has a different perception. That's
+    also what shows the greatness of Afandi\n\n\n\n\n\n\n\n\n\n\n\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284705131
+  m_fontColor: {r: 0.42, g: 0.41, b: 0.39, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 1
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.347
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 9.401083, y: 2.0041795, z: 20.814697, w: -39.144226}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &795942657
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795942653}
+  m_CullTransparentMesh: 1
 --- !u!1 &855267030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1663,189 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1168537971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1168537972}
+  - component: {fileID: 1168537974}
+  - component: {fileID: 1168537973}
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1168537972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168537971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1484401837}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1168537973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168537971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1168537974
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168537971}
+  m_CullTransparentMesh: 1
+--- !u!1 &1358745420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1358745421}
+  - component: {fileID: 1358745424}
+  - component: {fileID: 1358745423}
+  - component: {fileID: 1358745422}
+  m_Layer: 5
+  m_Name: Scroll View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1358745421
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358745420}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1500153730}
+  - {fileID: 1639265716}
+  m_Father: {fileID: 713552678918384620}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 893.42, y: 664.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1358745422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358745420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ScrollRect
+  m_Content: {fileID: 795942654}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.001
+  m_Inertia: 1
+  m_DecelerationRate: 0.035
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 1500153730}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 1639265717}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: 1
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1358745423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358745420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 0
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1358745424
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358745420}
+  m_CullTransparentMesh: 1
 --- !u!1 &1418790893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +2057,258 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424935237}
   m_CullTransparentMesh: 1
+--- !u!1 &1484401836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1484401837}
+  m_Layer: 5
+  m_Name: Sliding Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1484401837
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484401836}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1168537972}
+  m_Father: {fileID: 1639265716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1500153729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500153730}
+  - component: {fileID: 1500153733}
+  - component: {fileID: 1500153732}
+  - component: {fileID: 1500153731}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1500153730
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500153729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 795942654}
+  m_Father: {fileID: 1358745421}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -21, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1500153731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500153729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Mask
+  m_ShowMaskGraphic: 0
+--- !u!114 &1500153732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500153729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1500153733
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500153729}
+  m_CullTransparentMesh: 1
+--- !u!1 &1639265715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1639265716}
+  - component: {fileID: 1639265719}
+  - component: {fileID: 1639265718}
+  - component: {fileID: 1639265717}
+  m_Layer: 5
+  m_Name: Scrollbar Vertical
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1639265716
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639265715}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1484401837}
+  m_Father: {fileID: 1358745421}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 0}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1639265717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639265715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Scrollbar
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.18867922, g: 0.18600923, b: 0.18600923, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1168537973}
+  m_HandleRect: {fileID: 1168537972}
+  m_Direction: 2
+  m_Value: 1
+  m_Size: 1
+  m_NumberOfSteps: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1639265718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639265715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1639265719
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639265715}
+  m_CullTransparentMesh: 1
 --- !u!1 &1683054053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1877,7 +2474,7 @@ MonoBehaviour:
   manager: {fileID: 1847064024}
   infoPanel: {fileID: 2843118912237932764}
   titleText: {fileID: 3025934706046889873}
-  bodyText: {fileID: 1927966535844211856}
+  bodyText: {fileID: 795942656}
   narration: {fileID: 1689482068}
   artworkImage: {fileID: 5769723941623883690}
   playButton: {fileID: 8408472889401277715}
@@ -1900,7 +2497,16 @@ MonoBehaviour:
   - imageName: 0626 Entang W, Me as Teddy Bear. M
     aliases: []
     title: Me as a Teddy Bear
-    description: TODO add description
+    description: "Entang was a classmate of Nasirun. He made this work after 9/11,
+      when the Twin Towers were hit and burned. At the time, Entang\u2014 who has
+      an American wife \u2014 was abroad for an exhibition, not in the US. When he
+      returned, the atmosphere in America was very tense, and he was searched on
+      arrival, an unpleasant experience. Afterward, he made this painting. The teddy
+      bear is a symbol of America, and he depicted himself as one \u2014 an Indonesian
+      in America who, despite this, was still treated with suspicion as a foreigner.
+      It was a difficult time for him and for many others, especially those who looked
+      like they might be from the Middle East, who could easily be regarded with
+      suspicion, as if associated with terrorism.\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 8e10201086e69512e23d186dd667e724, type: 3}
     image: {fileID: 21300000, guid: 1f9f13d25e1c8834fa69ec678ddf609c, type: 3}
     videoPrefab: {fileID: 0}
@@ -1916,28 +2522,79 @@ MonoBehaviour:
       cm
     aliases: []
     title: Aloen-Aloen Kidul
-    description: TODO add description
+    description: "Hendra's paintings often featured the lively Pasar Malam (night
+      market), a recurring subject in his work. This particular painting depicts
+      the night market at Alun-Alun Kidul, near the Keraton in Yogyakarta, and was
+      completed in 1946. The artwork has since been restored and cleaned, revealing
+      much brighter colors than when it was first acquired.\r\nComparing this painting
+      with one Hendra created 35 years later titled \u201CNight Market\u201D shows
+      a remarkable evolution in his style. The later work is much larger, brighter,
+      and more visually dramatic, reflecting the wider availability of vivid pigments.
+      While the 1946 painting remains relatively realistic, it already hints at Hendra's
+      growing experimentation through subtle deformation of figures and expressive,
+      non-naturalistic colors, such as painting a man's face blue. These bold artistic
+      choices became increasingly pronounced in his later works, making the comparison
+      especially revealing of his artistic development.\r\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 95e8cba5ea7138b0ebbd5685ed79c286, type: 3}
     image: {fileID: 21300000, guid: 7fe105b76084e0e4d9986a9803ed38ca, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 2041 Hendra Gunawan, Night Market M
     aliases: []
     title: Night Market
-    description: TODO add description
+    description: "Night Market is one of Hendra's monumental paintings, measuring
+      approximately 4 \xD7 2 meters. Created around 35 years after his earlier Pasar
+      Malam scene titled \u201CAloe Alooen Kidul\u201D , it demonstrates the remarkable
+      evolution of his artistic style. Painted after his release from prison, the
+      work is filled with bold, vibrant colors and expressive, stylized figures that
+      showcase his technical mastery and confident use of distortion.\r\nThe painting
+      captures the lively atmosphere of a Pasar Malam (night market), where children
+      play, vendors sell food and goods, and families gather to enjoy the festivities.
+      Through its dynamic composition and joyful energy, Hendra celebrates the warmth
+      of communal life and the enduring cultural significance of the night market,
+      while reflecting the more expressive and daring visual language that defined
+      his later works.\r\n\n\n\n\n"
     audio: {fileID: 8300000, guid: f3b59fa662c78abd6f00c069617805d8, type: 3}
     image: {fileID: 21300000, guid: 0c0761d5624e50947971d0d488137dbb, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0704 Hendra Gunawan, Self Portrait M
     aliases: []
     title: Self Portrait
-    description: TODO add description
+    description: 'Self Portrait is one of the many self-portraits Hendra painted
+      during his imprisonment. These works offer a deeply personal glimpse into his
+      emotional and psychological state, often depicting him in quiet contemplation.
+      Surrounding his figure are strange, ghost-like forms, which may symbolize the
+      inner fears, anxieties, or disturbing thoughts he experienced during his isolation.
+
+      This
+      particular painting is especially significant because it once belonged to Adam
+      Malik, Indonesia''s former Vice President and a renowned art collector. Interestingly,
+      the work is unsigned. Many of Hendra''s paintings from this period either lack
+      a signature or had their original signatures removed, as collectors feared
+      persecution due to Hendra''s alleged association with the Indonesian Communist
+      Party after the 1965 political upheaval. Although some signatures were later
+      added, they are not always authentic. As the speaker notes, the true value
+      of the work lies in the painting itself rather than the signature, since a
+      signature can be forged, but Hendra''s artistic expression cannot.
+
+
+
+
+'
     audio: {fileID: 8300000, guid: 839cc9da2db3abcdb7cf8ced5661e515, type: 3}
     image: {fileID: 21300000, guid: 521647f08ed66004ea91cda0066d2751, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: sketches by hendra
     aliases: []
     title: Sketches of Hendra Gunawan
-    description: TODO add description
+    description: "These sketches, created by Hendra in the early 1940s\u2014particularly
+      between 1941 and 1946\u2014are exceptionally rare. During this period, art
+      materials were scarce, so Hendra was often unable to turn these sketches into
+      finished paintings. As a result, they remain unique, one-of-a-kind works.\r\nThe
+      sketches were drawn on old, previously used paper, with typed stories on the
+      reverse side. While they may not have the same financial value as Hendra's
+      paintings, their historical significance, rarity, and artistic value make them
+      invaluable. The large number of these sketches has also impressed many experts
+      who have visited the collection.\r\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 70aaea3fc010d4c59051c0052f054421, type: 3}
     image: {fileID: 21300000, guid: 5c40171fa5a7d253453fd8b9f23c68a4, type: 3}
     videoPrefab: {fileID: 0}
@@ -1945,7 +2602,17 @@ MonoBehaviour:
       cm
     aliases: []
     title: Two Guerilla Fighters
-    description: TODO add description
+    description: "This is another strong work by Hendra from the 1940s revolutionary
+      period. It has no signature \u2014 a large signature was on it when acquired,
+      but it wasn't Hendra's and didn't match the painting's date, so it was erased
+      by a conservator.\r\nThis is one of the strongest works in OHD's collection
+      from the revolution period, depicting guerrilla fighters. That period interests
+      OHD greatly, who believes he may hold the largest number of works from it.
+      The expression is genuine because Hendra was fighting himself at the time,
+      still in the war \u2014 unlike his later retrospective works on the same period,
+      done after the fighting had ended.\r\nMaterials were often poor quality since
+      canvas and paint were scarce; artists used whatever they could find. This piece
+      is painted on paper, which was then mounted onto a wood panel.\r\n"
     audio: {fileID: 8300000, guid: de0922189b58357a7e67adb18cbb4e35, type: 3}
     image: {fileID: 21300000, guid: 622986008c85350499b771867eee66ea, type: 3}
     videoPrefab: {fileID: 0}
@@ -1959,7 +2626,15 @@ MonoBehaviour:
   - imageName: 0644 Nasirun, Melarung
     aliases: []
     title: Melarung
-    description: TODO add description
+    description: "Nasirun is one of OHD's favorite artists among the younger generation,
+      though not so young anymore. Wayang, the Javanese puppet tradition, is a recurring
+      subject in his work, reflecting his expertise in the art form. This large painting
+      \u2014 3 by 5 meters, a single canvas \u2014 depicts a time when things weren't
+      going well for him, and he felt there was something he needed to throw away,
+      perhaps the cause of the misery he was experiencing. \"Melarung\" means throwing
+      something into the sea, ridding oneself of unwanted things. Beyond its subject,
+      the painting's scale alone makes it striking and eye-catching, and the red
+      tones are highly typical of Nasirun's work"
     audio: {fileID: 8300000, guid: 3706b5dd100d79b89e3608d47d9c89ea, type: 3}
     image: {fileID: 21300000, guid: c649bfaa71794c74ba770b9c0c332859, type: 3}
     videoPrefab: {fileID: 0}
@@ -1967,14 +2642,36 @@ MonoBehaviour:
       cm
     aliases: []
     title: Death Beneath the Angel
-    description: TODO add description
+    description: "Soedibio belonged to the same generation of artists as Sujojono,
+      Gunawan, as well as Affandi. Affandi, however, was the oldest among them and
+      always stood apart, following his own distinct path in his work. The others
+      \u2014 Sudjojono, Sujoyono, Gunawan, and Hariyani \u2014 influenced one another
+      over the years, and as a result, some similarities can be traced across their
+      paintings.\r\nSoedibio, though, was different in one key respect: his subject
+      matter and style, rooted in surrealism, set him apart from all the others.
+      In particular, the surrealist violence he depicted from the Second World War
+      is extraordinary \u2014 the intensity and imagination behind these works go
+      far beyond what one would expect.\r\nThis is something that has been noticed
+      not only by OHD but by nearly every curator and art director who has visited
+      the collection, including those from abroad. Sudjojono's work is consistently
+      singled out as one of the highlights of the collection, because this particular
+      kind of surrealist expression could only have come from him. He is regarded
+      as the father and pioneer of surrealism within Indonesian modern art, a distinction
+      that sets his contribution apart from that of his contemporaries.\r\n"
     audio: {fileID: 8300000, guid: f3b8b293c994b13f3d356e6257c0f649, type: 3}
     image: {fileID: 21300000, guid: 539d432b26b4a7e4082284f94f436ef2, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0751 S. Sudjojono, A Lakeside Meeting in the Mountains
     aliases: []
     title: Lakeside Meeting in the Mountains
-    description: TODO add description
+    description: "This is a very good painting, previously owned by Affandi \u2014
+      OHD acquired it from Affandi's collection. It's another typical satirical work
+      by Sudjojono, mocking the \"new rich,\" whose conduct doesn't match the wealth
+      they possess. The only figure meant to represent a true, ideal woman of high
+      status is the one at the center, his wife Rosemary. The others, though possibly
+      just as rich or richer, don't carry themselves in a way that reflects that
+      status. Sudjojono always brought this humorous perspective, and he expressed
+      it exceptionally well in his paintings."
     audio: {fileID: 8300000, guid: 36155cf3baa2a1bd7128f24bd0813c06, type: 3}
     image: {fileID: 21300000, guid: b1b7fdf9a30e6244392175b0e40faf31, type: 3}
     videoPrefab: {fileID: 0}
@@ -2827,7 +3524,7 @@ RectTransform:
   m_Children:
   - {fileID: 7299824232183816225}
   - {fileID: 2069803335}
-  - {fileID: 3768821389169113880}
+  - {fileID: 1358745421}
   m_Father: {fileID: 4263035738510494125}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2842,14 +3539,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3748985364895784406}
-  m_CullTransparentMesh: 1
---- !u!222 &1110858967391314640
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3043257191964517483}
   m_CullTransparentMesh: 1
 --- !u!222 &1201117076890711337
 CanvasRenderer:
@@ -2880,98 +3569,6 @@ RectTransform:
   m_AnchoredPosition: {x: -94.01941, y: -1001.145}
   m_SizeDelta: {x: 647.4118, y: 174.4928}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1927966535844211856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3043257191964517483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 0.42, g: 0.41, b: 0.39, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: -108.33624, y: -99.614075, z: -86.35559, w: -95.78491}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &2401953104330565332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3109,24 +3706,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &3043257191964517483
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3768821389169113880}
-  - component: {fileID: 1110858967391314640}
-  - component: {fileID: 1927966535844211856}
-  m_Layer: 5
-  m_Name: Description
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!114 &3144499855185646034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3192,25 +3771,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3768821389169113880
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3043257191964517483}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 713552678918384620}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -344}
-  m_SizeDelta: {x: 470, y: 380}
-  m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &4263035738510494125
 RectTransform:
   m_ObjectHideFlags: 0

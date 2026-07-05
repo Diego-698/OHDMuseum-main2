@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -690, y: 0}
-  m_SizeDelta: {x: 30, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &106179528
 MonoBehaviour:
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1042150068}
   m_Direction: 2
   m_Value: 1
-  m_Size: 1
+  m_Size: 0.8383723
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -881,6 +881,7 @@ GameObject:
   - component: {fileID: 585806574}
   - component: {fileID: 585806576}
   - component: {fileID: 585806575}
+  - component: {fileID: 5500000000000000010}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -902,10 +903,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1941128298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0008949345}
-  m_SizeDelta: {x: 0, y: 300}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 345.22986}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &585806575
 MonoBehaviour:
@@ -927,16 +928,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "This work titled Bistro in Paris is an exceptional one. It is world famous
+    because it got the second prize at the Biennale in Venice in 1954. Affandi was
+    at the time already in Europe. In '53, he painted this, and in '53, he was also
+    participating in the Biennale of S\xE3o Paulo, and his works there attracted
+    the curator of the Venice Biennale in '54. That's why he was invited to participate
+    in the Biennale in '84 in Venice. He sent more than one painting, but this got
+    the second prize, which was of course a big achievement. But Affandi was not
+    happy. Affandi said, I should have got the first prize. And you know who got
+    the first prize? It was the great surrealist Max Ernest. So I think second prize
+    is already a very big achievement. But Afandi has a different perception. That's
+    also what shows the greatness of Afandi\n\n\n\n\n\n\n\n\n\n\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24c165a72e497a64d8a5f98aa1318096, type: 2}
+  m_sharedMaterial: {fileID: 2317839877647712968, guid: 24c165a72e497a64d8a5f98aa1318096, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4284705131
   m_fontColor: {r: 0.42, g: 0.41, b: 0.39, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -961,18 +972,18 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 8
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 1
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0.347
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -993,7 +1004,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -108.33624, y: -99.614075, z: -86.35559, w: -95.78491}
+  m_margin: {x: 9.401083, y: 2.0041795, z: 20.814697, w: -39.144226}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1024,7 +1035,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &658101448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1353,8 +1364,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -75.096504}
-  m_SizeDelta: {x: 721.6, y: 573.343}
+  m_AnchoredPosition: {x: 3.4031, y: 68.396}
+  m_SizeDelta: {x: 893.42, y: 690.4598}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729993667
 MonoBehaviour:
@@ -1372,7 +1383,7 @@ MonoBehaviour:
   m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
-  m_Elasticity: 0.025
+  m_Elasticity: 0.001
   m_Inertia: 1
   m_DecelerationRate: 0.035
   m_ScrollSensitivity: 1
@@ -1382,7 +1393,7 @@ MonoBehaviour:
   m_HorizontalScrollbarVisibility: 2
   m_VerticalScrollbarVisibility: 2
   m_HorizontalScrollbarSpacing: -3
-  m_VerticalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1409,7 +1420,7 @@ MonoBehaviour:
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
-  m_FillCenter: 1
+  m_FillCenter: 0
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
@@ -2064,7 +2075,7 @@ RectTransform:
   m_Father: {fileID: 947655341}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2379,172 +2390,547 @@ MonoBehaviour:
   videoPauseButton: {fileID: 2102316480}
   artworks:
   - imageName: 0659 Affandi, Bistro in Paris M
+    aliases: []
     title: Bistro in Paris
-    description: "This work titled Bistro in Paris is an exceptional one. It is world
-      famous because it got the second prize at the Biennale in Venice in 1954. Affandi
-      was at the time already in Europe. In '53, he painted this, and in '53, he
-      was also participating in the Biennale of S\xE3o Paulo, and his works there
-      attracted the curator of the Venice Biennale in '54. That's why he was invited
-      to participate in the Biennale in '84 in Venice. He sent more than one painting,
-      but this got the second prize, which was of course a big achievement. But Affandi
-      was not happy. Affandi said, I should have got the first prize. And you know
-      who got the first prize? It was the great surrealist Max Ernest. So I think
-      second prize is already a very big achievement. But Afandi has a different
-      perception. That's also what shows the greatness of Afandi"
+    description: " This is an exceptional and world-famous painting, celebrated for
+      winning second prize at the Venice Biennale in 1954. At the time, Affandi was
+      already based in Europe. He painted this piece in 1953, the same year he took
+      part in the S\xE3o Paulo Biennale, where his work caught the eye of the curator
+      organizing the following year's Venice Biennale, leading to his invitation.
+      He submitted several paintings to the Venice exhibition, but it was this particular
+      one that won second prize \u2014 an extraordinary achievement by any measure.
+      Affandi himself, however, was not satisfied with the result; he felt strongly
+      that he deserved first prize instead. That top honor went to the renowned surrealist
+      Max Ernst. OHD considers second prize at such a prestigious international event
+      to already be a remarkable accomplishment, but notes that Affandi's own sense
+      of ambition and self-belief was part of what made him such a towering figure.\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: f5af115f49fe5d449a87d5a1137bc681, type: 3}
     image: {fileID: 21300000, guid: 4bf5d6ea58120994192be8850f040553, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0660 Affandi, Chinese temple in Jogja M
+    aliases: []
     title: Chinese Temple in Jogja
-    description: TODO add description
+    description: "OHD first came across this painting through a book published by
+      the great collector during Affandi's own lifetime. As soon as he got hold of
+      the book, this temple painting was the very first image that captured his attention.
+      Alongside it, he was also drawn to Kwan Kong, which he later managed to acquire,
+      and the Eiffel Tower, which he was not able to obtain \u2014 the family who
+      owned it declined to sell, since the painting held special personal meaning
+      for them. The temple painting itself, however, OHD was fortunate to acquire
+      at a very reasonable price, even though he had come prepared to pay up to three
+      times as much if necessary. This was, in fact, the very first Affandi work
+      he ever purchased, and like many of his early acquisitions, he bought it on
+      installments. OHD often reflects on how significant this installment arrangement
+      was \u2014 he believes Affandi's willingness to sell this way was a genuinely
+      visionary decision, because it allowed collectors without the full purchase
+      price in hand to still start buying. At a time before online transfers existed,
+      collectors would return to Affandi's studio each time they had money to pay,
+      and in doing so would often see new works freshly made, prompting them to buy
+      again and again until, over time, they had accumulated substantial collections.
+      OHD sees this as one of Affandi's quiet strokes of genius \u2014 despite being
+      an unassuming, humble man who insisted he could only work and not explain himself,
+      he understood how to cultivate collectors. His personal symbol, fittingly,
+      became his two feet and the sun above him, representing the energy that fueled
+      his work.\r\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 8014b8d19d2c37d46b66d3208dbe4e48, type: 3}
     image: {fileID: 21300000, guid: e5b393049e0fea54b9fab0d7b09bc886, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0662 Affandi, Kwan Kong - The Legendary General M
+    aliases: []
     title: Kwan Kong
-    description: TODO add description
+    description: " This is regarded as one of Affandi's most iconic and widely recognized
+      paintings, and it comes with a rich history. Affandi typically required a living
+      subject in front of him in order to paint, which makes this work unusual, since
+      Kwan Kong is a legendary figure from ancient Chinese folklore \u2014 not someone
+      who could ever actually sit for a portrait. The solution came through a dedicated
+      collector from Surabaya named Wee Boon Bing, who closely followed Affandi's
+      process and gave him a small statue of Kwan Kong to use as his model. From
+      that small, inanimate object, Affandi managed to create a figure that reads
+      as fully alive \u2014 a testament, in OHD's view, to his extraordinary skill
+      at breathing life into lifeless things. The painting has since acquired something
+      of a mystique: numerous visitors, including American collectors, have remarked
+      that it seems to possess a genuine soul, and there are stories of previous
+      owners experiencing misfortune after parting with it. OHD has found this reputation
+      useful in deflecting the many requests he receives to sell the piece, explaining
+      to interested buyers that he simply cannot part with a painting that carries
+      a soul \u2014 and pointing out, half-seriously, that even the collector he
+      purchased it from seemed to lose his own fortune shortly after selling it.\r\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 43a00dfee0a1ccc4f98ac9c30df5790d, type: 3}
     image: {fileID: 21300000, guid: c42da3dc2f4dec24dbe3f55052cd3866, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: Affandi_My Room_1942_Oil on jute_60 x 75 cm
+    aliases: []
     title: My Room
-    description: TODO add description
+    description: " This is an older work from a period when Affandi was still painting
+      with a brush rather than his later signature technique. Titled My Room and
+      dated 2602 in the Japanese calendar \u2014 equivalent to 1942, during the Japanese
+      occupation \u2014 the painting was made while Affandi was living in Bali. Its
+      composition closely echoes Van Gogh's own painting of the same title; just
+      as Van Gogh depicted his own earlier works hanging on his bedroom walls, Affandi
+      did the same here, surrounding himself with paintings from his earlier career.
+      This piece originally remained in Affandi's personal possession and was never
+      intended for sale, which makes its rarity all the more significant. OHD considers
+      himself especially fortunate that this work eventually found its way into the
+      OHD Museum's permanent collection.\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 60aefd216c218c44d864a5397fc6fda6, type: 3}
     image: {fileID: 21300000, guid: aecab3948c85c1443b75e7be7692dde1, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: PL.14. Affandi, Watching Cockfight_1968_Oil on Canvas_150x250cm
+    aliases: []
     title: Watching Cockfights
-    description: TODO add description
+    description: "\nCockfighting was one of Affandi's favorite subjects to paint,
+      even though he personally disapproved of the practice \u2014 he saw it as something
+      that often devastated the finances of ordinary people through gambling losses.
+      For Affandi, the subject carried an underlying moral warning, even as it remained
+      a widely popular theme with audiences and collectors alike. OHD already owned
+      several cockfight paintings by Affandi before acquiring this one, but he considers
+      this particular piece the best and largest depiction of the subject he has
+      ever encountered \u2014 impressive enough that he chose to add it to his collection
+      despite already having others.\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 2d6fb92f06d988141b0f86fe9700b6e5, type: 3}
     image: {fileID: 21300000, guid: ad7169b4367361e41b9ca1c006a91849, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0667 Affandi, Women Combing Her Hair M
+    aliases: []
     title: Woman Combing Her Hair
-    description: TODO add description
+    description: "Affandi is widely regarded as Indonesia's most celebrated painter,
+      and his signature style remained remarkably consistent throughout most of his
+      career. He is best known for his technique of squeezing paint directly onto
+      the canvas rather than using a brush, but earlier in his artistic life, before
+      settling into that method, he worked more conventionally with a brush, and
+      even produced fully realistic paintings \u2014 a phase of his career that is
+      rarely seen or discussed today. Woman Combing Her Hair, executed in pastel
+      on paper during the early 1940s, belongs to this rare early period. OHD notes
+      with some pride that his collection includes a carefully selected group of
+      these lesser-known works, ensuring that this important formative chapter of
+      Affandi's development is properly represented within the OHD Museum.\r\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: d7ff3f4bcf01d864f907458ed5dda481, type: 3}
     image: {fileID: 21300000, guid: ded2705bdce76db4582966de0e83c67a, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: PL.13. Hendra Gunawan_Herbal Tonic Seller_1962_Oil on canvas_189x81
       cm
+    aliases: []
     title: Herbal Tonic Seller
-    description: TODO add description
+    description: "To truly understand Hendra Gunawan as an artist, OHD emphasizes,
+      one has to understand the distinct periods of his career. His revolutionary-era
+      works remain relatively rare and unfamiliar to most people, who are typically
+      far more acquainted with his later period, produced after his release from
+      prison \u2014 a phase marked by bright, bold, even shockingly vivid colors
+      that are visually striking and immediately appealing. By contrast, this earlier
+      piece, Herbal Tonic Seller, comes from the 1950s and 60s, when Hendra was based
+      in Jogja before later relocating to Bandung, and reflects a much more subtle,
+      restrained color palette. From this same period comes what OHD considers some
+      of Hendra's finest work, including a piece once owned by Sukarno himself, titled
+      \"Karokan,\" which happens to be one of OHD's personal favorites. These paintings
+      are notable for their transparency of technique and their frequently vertical
+      compositions \u2014 a genuinely difficult format to compose successfully \u2014
+      often built around a single central figure surrounded by a crowd of others,
+      whose faces, though rendered relatively flat, still carry real expressive depth,
+      a hallmark of Hendra's unique skill. OHD holds a particular fondness for this
+      quieter, more understated period, standing in direct contrast to the bombastic,
+      showier style of his later career, and though pieces from this era are relatively
+      rare, he has managed to acquire a modest but meaningful number of them.\r\n\n\n\n"
     audio: {fileID: 8300000, guid: 9066571c4a6bebc439940613ebcbfe84, type: 3}
     image: {fileID: 21300000, guid: 482cfd349fb7611438404a8a5db7b1cc, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 2949 Hendra Gunawan, Indonesia Indah
+    aliases: []
     title: Indonesia Indah
-    description: TODO add description
+    description: "This is the only known abstract painting by Hendra Gunawan, and
+      it comes attached to a particularly compelling story. The work was originally
+      a gift from Hendra to a military officer named Apung Kusnan, who had been assigned
+      to supervise him during his imprisonment \u2014 a punishment stemming from
+      Hendra's association with Lekra, which authorities at the time equated with
+      communist ideology. In reality, Hendra was never a genuine communist; his loyalties
+      lay with ordinary working people rather than any political doctrine. Over the
+      course of his imprisonment, an unlikely friendship developed between Hendra
+      and Kusnan, who would later go on to rise through the ranks and eventually
+      become Vice Governor of West Java. At one point, Hendra offered to paint something
+      for his supervisor as a gift, asking what subject he'd like. Kusnan, who admittedly
+      knew little about art, simply requested a painting of \"Beautiful Indonesia.\"
+      In response, Hendra painted a landscape of West Java, but included strange,
+      unidentifiable forms scattered across the sky \u2014 elements that give the
+      piece its distinctly abstract quality, setting it apart from the rest of his
+      output. OHD had known about the painting's existence for years, having heard
+      about it and even been shown photographs by dealers hoping to sell it to him,
+      but he had never actually seen the work in person. That changed unexpectedly
+      when Kusnan's son, who worked at PPN Niaga, was introduced to OHD through a
+      mutual acquaintance from Magelang and brought the painting to him directly.
+      By this point, Kusnan was gravely ill and largely unconscious, and the family
+      urgently needed funds to cover his medical expenses, which allowed OHD to acquire
+      the piece at a considerably lower price than had previously been asked. He
+      also took the opportunity to record a video interview with the family documenting
+      the painting's full history \u2014 a document he considers an important part
+      of the OHD collection's archive.\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 4281defb67b7356458b676b78700b76d, type: 3}
     image: {fileID: 21300000, guid: e8cb84a1a19f6924fb1afa65a4f71ba7, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 2432 Hendra Gunawan, Kaum Pinggiran
+    aliases: []
     title: Kaum Pinggiran
-    description: TODO add description
+    description: "The title \"Kaum Pinggiran\" translates to \"the marginalized,\"
+      referring to society's lowest social class \u2014 people who could barely scrape
+      together enough money to feed themselves. The figures in this painting appear
+      emaciated and malnourished, so desperate for sustenance that they resorted
+      to eating geckos, a detail that feels almost unimaginable today but was, in
+      fact, a lived reality at the time. Hendra Gunawan understood this world intimately,
+      not merely as an outside observer but as someone who had lived through similar
+      hardship himself. He came from a broken home, having been sent away by his
+      father, and he witnessed firsthand how the women in his life \u2014 particularly
+      his mother \u2014 were forced to labor endlessly to nourish and raise their
+      children, even breastfeeding them well into early childhood. This lived experience
+      shows through in the painting's physical details: worn, depleted breasts and
+      legs marked by varicose veins from constant walking. And yet, remarkably, the
+      figures depicted are happy \u2014 a detail OHD finds deeply meaningful, illustrating
+      that true happiness does not depend on wealth. In OHD's assessment, no other
+      artist has captured this particular subject as powerfully or authentically
+      as Hendra did. Many of these works date specifically to the revolutionary period,
+      when materials were scarce \u2014 canvases had to be stitched together from
+      smaller pieces, and paints were often handmade from organic materials, lacking
+      the vivid, bright colors that would characterize his later post-imprisonment
+      period. OHD considers this a crucial and historically important phase of Hendra's
+      career, one that any serious museum collection ought to represent.\r\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 0c7bd1c43edd23846bb363bda19e44e9, type: 3}
     image: {fileID: 21300000, guid: 682326c03019a2c4a85433e73133310d, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: Hendra Gunawan_Rice Harvest_1980_Oil on canvas_195 x 400 cm
+    aliases: []
     title: Rice Harvest
-    description: TODO add description
+    description: "Hendra Gunawan is particularly known for his large-format paintings,
+      and the rice harvest was one of his most popular recurring subjects \u2014
+      for farmers and the rural poor, harvest time represented not just labor but
+      genuine celebration, since it meant income and abundance, almost like a festival.
+      What allowed Hendra to work at such an enormous scale, unlike Affandi, who
+      needed to paint directly from a live subject in front of him and was therefore
+      constrained by the practical limits of working on location? Hendra possessed
+      a remarkable photographic memory \u2014 he needed to observe something only
+      once, after which he could recall and reproduce it from memory whenever he
+      wished, even reusing the same figures across entirely different compositions
+      and subject matters. This meant he could work entirely from the comfort of
+      his studio, without needing to transport large or unwieldy subjects, an especially
+      practical advantage given how little money he had at various points in his
+      life. This is precisely why large-scale works by Hendra are far more common
+      than similarly sized paintings by Affandi.\r\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 90c51a5bd9bd279449d74baa14816006, type: 3}
     image: {fileID: 21300000, guid: c65fd38ff3bb3684493478eebc7ade85, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: Soedibio_Self Portrait and Woman_1954_Oil on canvas_60 by 50 cm
+    aliases: []
     title: Self Portrait and Woman
-    description: TODO add description
+    description: "Soedibio was, in many ways, a surrealist figure not only in his
+      art but in his own personal life \u2014 an introverted man who experienced
+      little luck in matters of love. As a young man, he had a fianc\xE9e but lacked
+      the courage to openly express his feelings for her, and she ultimately married
+      someone else, a loss that caused him deep and lasting grief. It wasn't until
+      much later in life, after he had ended a long period of self-imposed exile,
+      that he encountered a young woman while visiting his uncle in Surabaya \u2014
+      a woman who bore a striking resemblance to a figure he had once dreamed about,
+      wearing distinctive earrings. Recognizing her from his dream, he eventually
+      married her, though by then he was already quite old. Together they had five
+      children within the span of just ten years, before Soedibio passed away at
+      the age of sixty-nine. This deeply sorrowful personal history is reflected
+      throughout much of his artistic output, which rarely, if ever, conveys a sense
+      of genuine happiness.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 5e46d6af284b0ad44b86be21eb53cc08, type: 3}
     image: {fileID: 21300000, guid: 024fce55f594d4c4ca9a887151ce0cbf, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 2408 Soedibio, Perjalanan Menuju Langit
+    aliases: []
     title: The Journey to the Sky
-    description: TODO add description
+    description: "OHD considers Soedibio to be a genuinely underrated and relatively
+      obscure artist, whose paintings from the revolutionary period stand out as
+      particularly exciting and compelling for their strong surrealist qualities.
+      In OHD's assessment, Soedibio deserves recognition as the true father and pioneer
+      of surrealism within Indonesian modern art history, possessing a level of imaginative
+      depth that, in his view, surpassed that of his contemporaries. He recalls being
+      genuinely uncertain, almost disbelieving, the first time he encountered one
+      of Soedibio's works, only later discovering that it had originally been published
+      as a magazine cover for the Ministry of Information. This discovery sparked
+      a long personal pursuit to track down more of Soedibio's scattered works, many
+      of which had become dispersed throughout the Jogja area after the artist was
+      imprisoned there during the 1949 revolution and subsequently withdrew into
+      self-imposed exile, losing track of where his own paintings had ended up. Over
+      time, OHD succeeded in gathering a significant number of these works, which
+      he later published in his book The Five Maestros of Modern Indonesia \u2014
+      a revelation that genuinely surprised the public, who had never before seen
+      this side of the artist's output. Curators, writers, and museum professionals
+      who later encountered these works were consistently impressed, coming to recognize
+      Soedibio as a genuinely important painter, even though his market value remains
+      far below that of an artist like Hendra, despite quality that OHD believes
+      may actually surpass Hendra's in some respects. OHD considers this rediscovery
+      and preservation of Soedibio's work to be the single most satisfying achievement
+      of his entire career as a collector.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: ed5206eeb2cc5f1419183459902b4183, type: 3}
     image: {fileID: 21300000, guid: 814b896743f38d64981b350abec0b07b, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0575 Soedibio, The Artist_s Wife
+    aliases: []
     title: The Artist's Wife
-    description: TODO add description
+    description: 'During his period of self-imposed exile, Soedibio once had a vivid
+      dream in which he saw a young woman wearing earrings, an image that stayed
+      with him even after he woke. Some time later, while visiting his uncle in Surabaya,
+      he was served by a woman who closely resembled the figure from his dream. He
+      went on to marry her later in life, and the couple had five children together
+      over the course of ten years, before Soedibio eventually passed away at sixty-nine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
     audio: {fileID: 8300000, guid: 04e4a194e396bcc42ae34772ac3f418b, type: 3}
     image: {fileID: 21300000, guid: 903173b05282bf84d9bc1f888f4b7395, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 2450 Soedibio, Kepada Kosong M
+    aliases: []
     title: To Empty
-    description: TODO add description
+    description: "Not every one of Soedibio's paintings carries the violent, unsettling
+      energy found in works like The Journey to the Sky. His calmer, more contemplative
+      pieces are equally profound in their own way, reflecting his deep personal
+      commitment to Kejawen philosophy \u2014 a spiritual belief system clearly evident
+      in this particular painting, titled after the Indonesian phrase for \"nothingness\"
+      or emptiness, depicting a solitary man in a state of meditation. This work,
+      in OHD's view, reveals just how introverted and deeply reflective an artist
+      Soedibio truly was. Following the end of his self-imposed exile, his subject
+      matter shifted toward more peaceful, everyday themes \u2014 scenes of city
+      life, traditional puppet stories, and similarly accessible subjects, which
+      remain the aspects of his work most familiar to the general public today.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: e2df2c59a6f0fe346a0bef7b2dafe048, type: 3}
     image: {fileID: 21300000, guid: 29493e0478627a84eb9f52bf492655cb, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: PL.24. Soedibio_Still-Life with two Vases_Oil on canvas_100x80 cm
+    aliases: []
     title: Two Vases
-    description: TODO add description
+    description: "After Soedibio rejoined social life following his period of exile,
+      his choice of subject matter shifted noticeably toward more conventional, everyday
+      themes, including Cubist-influenced still-life compositions \u2014 a stylistic
+      element that recurs throughout much of his later output \u2014 as well as numerous
+      works depicting traditional puppet stories, which are especially well known
+      among collectors and frequently appear at auction. When people today discuss
+      Soedibio's art, they are, more often than not, referring specifically to this
+      later, post-exile body of work.\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 3cbade8e6a68c934f883f781593fc5ea, type: 3}
     image: {fileID: 21300000, guid: 9597ada0c18c74c4a8dce54b40d2da6d, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 2414 Soedibio, Woman with White Sheep M
+    aliases: []
     title: Woman with White Sheep
-    description: TODO add description
+    description: "This particular painting stands as a genuine masterpiece, entirely
+      distinct from the rest of Soedibio's body of work. Painted around the time
+      he was bringing his long period of self-imposed exile to a close, it depicts
+      a woman whose facial features, in OHD's own assessment, closely resemble Soedibio's
+      own. It remains the only work by the artist to feature this particular texture
+      and this kind of vivid, bright coloration. OHD has come to refer to this piece
+      affectionately as the \"Mona Lisa of Java,\" and he waited a remarkable twenty-eight
+      years before he was finally able to acquire it from its previous owner. It
+      remains one of his most cherished Soedibio paintings, notable above all for
+      its rare sense of beauty and genuine happiness \u2014 qualities seldom found
+      elsewhere within the artist's otherwise somber and melancholic body of work.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 07b0bc8a0f2173c499df8d191f173c2f, type: 3}
     image: {fileID: 21300000, guid: 20f573379ac4e464b89d44a403ca9772, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0556 S. Sudjojono, Cnta di Alur Sungai M
+    aliases: []
     title: Bercinta di Alur Sungai
-    description: TODO add description
+    description: "Toward the later years of his life, Sudjojono's paintings became
+      increasingly abstract, taking on an appearance closer to non-representational
+      art while still concealing narrative content beneath the surface \u2014 content
+      that becomes apparent only with close, careful study. In this particular work,
+      a quiet romance unfolding along a riverbank is only barely perceptible to the
+      viewer. OHD finds this late period of Sudjojono's career especially compelling
+      precisely because the artist no longer stated his meaning plainly; instead,
+      the viewer is left to search the canvas and puzzle out what story is actually
+      being told.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: b2a6df6346b0c6147adb884d8b6f9e76, type: 3}
     image: {fileID: 21300000, guid: ca9c6ebed01ee84429ac29ee3cc0b430, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: S Sudjojono_Me And Three Venuses_OoC_80x100cm_1978
+    aliases: []
     title: Me and Three Venuses
-    description: TODO add description
+    description: "OHD regards this as one of the most important paintings in his
+      entire collection of Sudjojono's work, since it directly embodies the artist's
+      personal philosophy of life. Sudjojono consistently maintained that human life
+      and human beings mattered more to him than art itself \u2014 that if ever forced
+      to choose between the two, he would always choose the person in need over the
+      artwork. This wasn't merely an abstract belief; it played out concretely in
+      his own life. While serving as a member of the Communist Party's cultural wing,
+      Lekra, he wished to marry a woman named Rose, but doing so while retaining
+      his parliamentary seat within the party was not permitted. Rather than give
+      up Rose, he chose to leave his political position altogether. In a twist of
+      fate, this decision ended up saving him from imprisonment later on, since by
+      the time the crackdown against communists occurred, he was no longer formally
+      affiliated with either the Communist Party or Lekra.\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 6317b98792d0f324694915adc107cb6b, type: 3}
     image: {fileID: 21300000, guid: a141e591a4801ad4eb134da7e04c1d47, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: S Sudjojono_Wedding Procession_1976_Oil on canvas_69x89 cm
+    aliases: []
     title: Wedding Procession
-    description: TODO add description
+    description: "Sudjojono became equally well known for his satirical, parody-style
+      paintings, a style he returned to particularly after leaving Lekra and the
+      Communist Party in order to marry Rose. This particular painting, depicting
+      the wedding of an old man, stands out as one of his more paradoxical and pointed
+      works. OHD recalls presenting it at the Bandung launch of a book collecting
+      Sudjojono's drawings, where he noted that the artist had, in a sense, been
+      ahead of his time \u2014 this painting predates the later popular song \"Mongtor
+      Habis Perawan\" (\"Old Man Marries a Virgin\"), which went on to become a major
+      hit. Sudjojono, in other words, had already captured this same idea in paint
+      years before it became a cultural phenomenon in music, revealing the sharp
+      wit and humor that ran through much of his work.\r\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 929e650877e5473408623ace0300c36b, type: 3}
     image: {fileID: 21300000, guid: 2c6c97e44adbf6a4d9f02e3833c21e5a, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0785 Widayat, Birds in the Three Tree_s M
+    aliases: []
     title: Birds in The Trees
-    description: TODO add description
+    description: "This painting holds particular significance for OHD, carrying with
+      it a long and meaningful story. It was originally the centerpiece work exhibited
+      at a major show at Bentara Budaya back in 1990. Acquiring it was no simple
+      matter, since it also happened to be the favorite painting of Widayat's own
+      wife, Ibu Min. Fortunately for OHD, Widayat himself intervened on his behalf,
+      telling his wife that she already had plenty of his work and should allow OHD
+      to have this particular piece. Despite its modest, simple title, the painting
+      had an outsized effect once it entered OHD's home \u2014 placed in his front
+      living room, it seemed to transform the entire atmosphere of the space in a
+      way he still cannot fully explain, and when it was later removed, the room
+      felt noticeably empty by comparison. This was one of ten works OHD chose to
+      present, each accompanied by its own personal story, at the Singapore launch
+      of Ranti Sanyoto's book documenting his collection, Exploring Modern Indonesian
+      Art: The Collection of Dr. Oei Hong Djien. Fittingly, this piece was the very
+      last one he presented that evening, described as his personal favorite and,
+      intriguingly, as a painting that had once \"saved his life\" \u2014 a claim
+      that left the audience curious, which he playfully deflected by promising the
+      full story would only be revealed in a future book.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: c4baeb249d4af9a418b3da90bb614111, type: 3}
     image: {fileID: 21300000, guid: b90ab58c0a4b7a84e8a94138500c966b, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0451 Widayat, Masses
+    aliases: []
     title: Mass
-    description: TODO add description
+    description: "Widayat, in keeping with his decorative approach, often used repetition,
+      filling the entire canvas completely. Whenever he repeated a figure, as in
+      Mass, the result is so many figures that they're impossible to count. Yet despite
+      the repetition, no two figures are ever the same \u2014 every single one is
+      different. OHD considers this kind of massive, densely populated work something
+      only Widayat could achieve.\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 19c4b260021e5894a838979fa799fd35, type: 3}
     image: {fileID: 21300000, guid: d8be333329fc7354d97d0b63df729ab8, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: Widayat_Primitive Life I_1963_Oil on canvas_100 by 120 cm
+    aliases: []
     title: Primitive Life
-    description: TODO add description
+    description: "Widayat's body of work forms the single largest portion of any
+      one artist within OHD's entire collection, a reflection of the close personal
+      friendship the two shared. OHD would see him almost daily, since Widayat's
+      own museum was located so near to Magelang. Widayat's artistic output is remarkably
+      broad, touching on nearly every conceivable subject matter, and he became especially
+      known for his decorative style \u2014 though OHD is careful to distinguish
+      this from anything merely \"sweet\" or conventionally pretty. Instead, he describes
+      it as \"magical decorative,\" characterized by earthy tones, striking and unusual
+      deformations of form, and a richness of invention found nowhere else in Indonesian
+      art. This distinctiveness is precisely what makes Widayat one of OHD's personal
+      favorites, setting him apart entirely from Affandi, Sudjojono, Hendra Gunawan,
+      or Soedibio. Within OHD's book on the \"Five Maestros\" of Indonesian modern
+      art, Widayat stands out as uniquely his own artist, and Primitive Life \u2014
+      of which many variations exist across his body of work \u2014 remains one of
+      his most frequently sought-after and recognizable themes.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 63ae09aacc28cf54299fa1c60d6f2e81, type: 3}
     image: {fileID: 21300000, guid: 939058918bbc51f4dbf6a6905c1c530d, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: Tari Tayub
+    aliases: []
     title: Tari Tayub
-    description: TODO add description
+    description: 'One of Widayat''s defining traits was his sense of humor, frequently
+      woven into his choice of subject matter. His characteristically extreme deformations
+      of the human figure added an extra comedic dimension to his work. In this particular
+      painting, he goes a step further by inserting a version of himself among the
+      depicted figures, playfully placing himself within the world of his own creation.
+
+
+
+
+
+
+
+
+
+
+'
     audio: {fileID: 8300000, guid: 22346097568b8bf468def14ee5956c66, type: 3}
     image: {fileID: 21300000, guid: 7630801096376764db985fd6e58040a7, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: 0793 Widayat Yogya Carriage M
+    aliases: []
     title: Yogya Carriage
-    description: TODO add description
+    description: "Beyond his decorative works, Widayat frequently turned to storytelling
+      as well, capturing the everyday lives of ordinary people \u2014 from local
+      communities in Jogja to the broader Javanese population \u2014 as seen in Yogya
+      Carriage. His subject matter also extended to biblical themes, such as the
+      flight of the Holy Family into Egypt, and even imagined scenes of primitive
+      human life drawn entirely from his own fantasy, since he had no firsthand experience
+      of such settings, relying instead on images and descriptions he encountered
+      in magazines and books, which he then transformed into fully realized works
+      of art.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     audio: {fileID: 8300000, guid: 1cc0a8315b8a36b4d9d527a887e58620, type: 3}
     image: {fileID: 21300000, guid: 389aa4a462730884ea43154724ae0945, type: 3}
     videoPrefab: {fileID: 0}
   - imageName: animal guy
+    aliases: []
     title: Dasamuka
     description: 
     audio: {fileID: 0}
     image: {fileID: 21300000, guid: d920301a309964c4dbe641e95c67f8e5, type: 3}
     videoPrefab: {fileID: 7195396606625147612, guid: 24352079fa0eacb428887799cf5e0b05, type: 3}
   - imageName: courtroom original
+    aliases: []
     title: Day without law
     description: 
     audio: {fileID: 0}
     image: {fileID: 21300000, guid: f21469123e98a4a909bb66f1abb6bbf5, type: 3}
     videoPrefab: {fileID: 628642322096906496, guid: 2b69ea9d57313f44baf0e846418cbb87, type: 3}
+  - imageName: torture
+    aliases: []
+    title: Torture Practices by The Japanese
+    description: 
+    audio: {fileID: 0}
+    image: {fileID: 21300000, guid: 7649913024ae3bc46b7b9ae8f43cd4f6, type: 3}
+    videoPrefab: {fileID: 1000000000000000001, guid: 23dec063ca2180847b57ac4163f0ee2b, type: 3}
+  - imageName: Surabaya
+    aliases: []
+    title: Three Mountain People
+    description: 
+    audio: {fileID: 0}
+    image: {fileID: 21300000, guid: 8e1bfb3989f0aba4fad59b7863c89e51, type: 3}
+    videoPrefab: {fileID: 1000000000000000001, guid: e3101b8c8c6ba694c8106dacb23f76af, type: 3}
+  - imageName: Lonceng
+    aliases: []
+    title: Lonceng bunyi ketiga
+    description: 
+    audio: {fileID: 0}
+    image: {fileID: 21300000, guid: 37f707ce471316b42b95ba3155d7522d, type: 3}
+    videoPrefab: {fileID: 1000000000000000001, guid: e4e1bfe0658601b4c88d47c23fc27427, type: 3}
+  - imageName: bulele
+    aliases: []
+    title: Buleleng War
+    description: 
+    audio: {fileID: 0}
+    image: {fileID: 21300000, guid: bd64ea843322efe418640408ea77e983, type: 3}
+    videoPrefab: {fileID: 1000000000000000001, guid: 85c70e7d02a215342a31311e62bfb32e, type: 3}
+  - imageName: ThreeProstitute
+    aliases: []
+    title: Three Prostitutes
+    description: 
+    audio: {fileID: 0}
+    image: {fileID: 21300000, guid: 1a9ea898c5f3c3f47b0627d9bd28b9d0, type: 3}
+    videoPrefab: {fileID: 1000000000000000001, guid: 3c0e719ad9b5d0643a603705848f3adb, type: 3}
 --- !u!4 &1689482067
 Transform:
   m_ObjectHideFlags: 0
@@ -2823,9 +3209,9 @@ RectTransform:
   m_Father: {fileID: 729993666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1941128299
 MonoBehaviour:
@@ -2856,7 +3242,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2910,9 +3296,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 713552678918384620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 3.4031, y: -121}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000025034, y: 504}
   m_SizeDelta: {x: 726.4009, y: 70.1301}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2069803336
@@ -2937,8 +3323,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'About this work '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a74dcf97ac6c07f4690436b4e50de11e, type: 2}
-  m_sharedMaterial: {fileID: 4992452835118995480, guid: a74dcf97ac6c07f4690436b4e50de11e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24c165a72e497a64d8a5f98aa1318096, type: 2}
+  m_sharedMaterial: {fileID: 2317839877647712968, guid: 24c165a72e497a64d8a5f98aa1318096, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2969,8 +3355,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -3541,7 +3927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -422.12457}
+  m_AnchoredPosition: {x: -0.00012207031, y: -588}
   m_SizeDelta: {x: -186.5791, y: -1511.3091}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &807867155014943306
@@ -3617,7 +4003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &3012946036509351150
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3648,8 +4034,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24c165a72e497a64d8a5f98aa1318096, type: 2}
+  m_sharedMaterial: {fileID: 2317839877647712968, guid: 24c165a72e497a64d8a5f98aa1318096, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3680,8 +4066,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -3889,6 +4275,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &5500000000000000010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585806573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!114 &5769723941623883690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3935,8 +4335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: 424.8544}
-  m_SizeDelta: {x: 615.2599, y: 615.26}
+  m_AnchoredPosition: {x: 0.0000076294, y: 357.63}
+  m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &6879388521706729127
 RectTransform:
@@ -3971,10 +4371,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 713552678918384620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 3.4031, y: -15}
-  m_SizeDelta: {x: 726.4009, y: 70.1301}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.4031, y: 660}
+  m_SizeDelta: {x: 726.4009, y: 120}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &7471668646178093892
 MonoBehaviour:
