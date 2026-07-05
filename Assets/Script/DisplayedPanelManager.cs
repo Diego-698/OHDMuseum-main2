@@ -177,13 +177,25 @@ public class DisplayedPanelManager : MonoBehaviour
         if (loadingPanel != null) loadingPanel.SetActive(false);
 
         titleText.text = art.title;
-        bodyText.text  = art.description;
+        // trailing blank lines add breathing room below the last line so the
+        // paragraph end isn't jammed against the bottom of the scroll view
+        bodyText.text  = art.description + "\n\n\n";
         narration.clip = art.audio;
         if (artworkImage != null && art.image != null) artworkImage.sprite = art.image;
         infoPanel.SetActive(true);
 
         narration.Stop();   // wait for the play button
         RefreshPlayPauseButton();
+
+        // reset the description scroll view to the top (it otherwise opens wherever
+        // it was left / mid-way after the Content Size Fitter resizes the text)
+        var scroll = infoPanel.GetComponentInChildren<UnityEngine.UI.ScrollRect>(true);
+        if (scroll != null)
+        {
+            yield return null;              // let the layout/Content Size Fitter settle
+            Canvas.ForceUpdateCanvases();
+            scroll.verticalNormalizedPosition = 1f;   // 1 = top
+        }
     }
 
     // hook to the Play/Pause button

@@ -15,6 +15,12 @@ public class ARVideoSurface : MonoBehaviour
              "ON = keep the video's own shape so landscape/portrait clips aren't distorted.")]
     [SerializeField] bool preserveAspect = false;
 
+    [Header("Orientation (turn on if a video renders wrong)")]
+    [Tooltip("Flip the video top-to-bottom.")]
+    [SerializeField] bool flipVertical = false;
+    [Tooltip("Flip the video left-to-right. Turn on BOTH flips to correct an upside-down (180-degree) clip.")]
+    [SerializeField] bool flipHorizontal = false;
+
     RenderTexture rt;
     VideoPlayer vp;
     Renderer rend;
@@ -46,7 +52,16 @@ public class ARVideoSurface : MonoBehaviour
         rt = new RenderTexture(w, h, 0);
         rt.Create();
         p.targetTexture = rt;
-        if (rend != null) rend.material.mainTexture = rt;
+        if (rend != null)
+        {
+            rend.material.mainTexture = rt;
+
+            // flip the texture if the clip renders wrong (e.g. an upside-down file)
+            float sx = flipHorizontal ? -1f : 1f;
+            float sy = flipVertical   ? -1f : 1f;
+            rend.material.mainTextureScale  = new Vector2(sx, sy);
+            rend.material.mainTextureOffset = new Vector2(flipHorizontal ? 1f : 0f, flipVertical ? 1f : 0f);
+        }
 
         if (preserveAspect)
         {
